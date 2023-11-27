@@ -1,7 +1,3 @@
-## WORK IN PROGRESS
-
-
-
 #!/usr/bin/env python3.11
 
 import tkinter as tk
@@ -351,6 +347,8 @@ class InventoryManager:
         
         self.total_price_var = tk.StringVar()
         self.total_price_var.set("$0.00")
+       
+
         self.total_price_display = tk.Label(self.cart_tab, textvariable=self.total_price_var)
         self.total_price_display.grid(row=5, column=1)
 
